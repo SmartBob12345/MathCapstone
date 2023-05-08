@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Learn Math</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style = "background-color: skyblue;">
+<button class = "btn btn-primary" id = "back" onclick = "back();">Back</button>
+<center>
+<h1 id = "practice_welcome" style = "font-weight: bold;">Practice</h1>
+<h3 style = "color: red; font-weight: bold;">For Division, round to the nearest positive integer.</h3>
+<h4 id = "score">Score: 0</h4>
+<h6 style = "color: blue; font-weight: 800;">If the score doesn't change, that means you gave an incorrect answer.</h6>
+<div id = "question_box" >
+    <h4 id = "question"></h4>
+    <br>
+    <input id = "answer" placeholder="Enter your answer here: ">
+    <br>
+    <br>
+    <br>
+    <button class = "btn btn-primary" onclick = "check();">Check</button>
+</div>
+</center>
+</body>
+<script src = "practice.js"></script>
+
+</html>

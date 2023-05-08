@@ -1,0 +1,46 @@
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border-color: azure;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+img:hover{
+    border-radius: 120px;
+}
+#plus_img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+#sub_img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+#mult_img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+#divide_img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+body{
+    background-color: aquamarine;
+}
+#choosepage{
+    background-color: skyblue;
+    border-radius: 15px;
+    width: 20%;
+}
+#mathimg{
+    border-radius: 15px;
+}
+#back{
+    margin-top: 50px;
+    margin-left: 50px;
+}
